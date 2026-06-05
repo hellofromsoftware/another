@@ -1,5 +1,5 @@
 :root {
-            --green: #00e676;
+            --green: #05c5c5;
             --dark: #0f0f0f;
             --gray: #8b8b8b;
             --card: #171717;
@@ -31,11 +31,13 @@
 
 /* NAVBAR */
 .custom-navbar {
-  /*background: rgba(255,255,255,1);*/
-  background: #f6f7f8;
-  backdrop-filter: blur(0px);
+  /*background: rgba(255,255,255,1);
+  background: #f6f7f8;*/
+  /*background: rgba(5, 197, 197, 0);*/
+  background: #ffffff;
+  backdrop-filter: blur(20px);
   padding: 20px 0;
-  /*border-bottom: 1px solid rgba(0, 0, 0, 0.1);*/
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .nav-link {
@@ -64,7 +66,8 @@
             align-items: center;
             position: relative;
             overflow: hidden;
-            background: #f6f7f8;
+            /*background: #f6f7f8;*/
+            background: rgba(5,197,197,0.12);
         }
 
         .hero::before {
@@ -240,12 +243,14 @@
     .feature-icon{
       width:55px;
       height:55px;
-      background:rgba(0,230,118,.12);
+      /*background:rgba(0,230,118,.12);*/
+      background: rgba(5,197,197,.12);
       border-radius:16px;
       display:flex;
       align-items:center;
       justify-content:center;
-      color:var(--green);
+      /*color:var(--green);*/
+      color: #05c5c5;
       font-size:18px;
     }
 
@@ -300,7 +305,8 @@
       width: 100%;
       min-height: 70vh;
 
-      background: #f6f7f8;
+      /*background: #f6f7f8;*/
+      background: rgba(5,197,197,0.12);
       /*
         linear-gradient(rgba(0, 0, 0, 0.65),
           rgba(0, 0, 0, 0.65)),
